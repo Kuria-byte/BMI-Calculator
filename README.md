@@ -1,4 +1,4 @@
 # BMI-Calculator
 Simple BMI Calculator
 
-# BMI-Calculator
+## BMI-Calculator
