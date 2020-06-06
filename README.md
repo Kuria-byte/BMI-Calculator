@@ -24,7 +24,7 @@ Simple BMI Calculator
 
 
 ## Logic
-` var weight = Number(req.body.weight)
+``` var weight = Number(req.body.weight)
   var height = Number(req.body.height)
 
   var bmi = (weight / (height * height))
@@ -37,7 +37,7 @@ Simple BMI Calculator
     res.send('Your Body Mass Index is' +' '  + bmi +' ' +':this is conisidered Overweight')
   }else{
     res.send('Your Body Mass Index is' +' '  + bmi +' ' +':this is conisidered Obese')
-  }`
+  } ```
 
 
 ### Inspiration
