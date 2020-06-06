@@ -34,6 +34,15 @@ res.sendFile(__dirname +"/bodyIndex.html");
 app.post("/bmiCalculator",function(req,res){
 var weight=Number(req.body.weight);
 var height=Number(req.body.height);
+  if (bmi < 18.5) {
+    res.send('Your Body Mass Index is' +' '  + bmi +' ' +':is conisidered below average')
+  }else if(bmi>=18.5 && bmi<=24.9){
+    res.send('Your Body Mass Index is' +' '  + bmi +' ' +':is conisidered normal')
+  }else if(bmi>=25&& bmi<=30){
+    res.send('Your Body Mass Index is' +' '  + bmi +' ' +': is conisidered Overweight')
+  }else{
+    res.send('Your Body Mass Index is' +' '  + bmi +' ' +': is conisidered Obese')
+  }
 
 var bmi=weight/(height*height);
 
