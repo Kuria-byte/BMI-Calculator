@@ -12,7 +12,6 @@ Simple BMI Calculator
 ## How it works
 ![BMI](https://user-images.githubusercontent.com/61579772/83941361-472ef880-a81d-11ea-9802-4f149825641c.jpg)
 
-## Result
 ![BMI2](https://user-images.githubusercontent.com/61579772/83941364-4f873380-a81d-11ea-91e9-91336a2ec9c4.jpg)
 
 ## What I learnt  
